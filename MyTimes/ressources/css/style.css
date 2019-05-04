@@ -1,0 +1,230 @@
+body{
+margin: 0;
+}
+
+header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.logo #company-name{
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+header nav{
+  padding-right: 40px;
+}
+
+nav span{
+  justify-content: center;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+span a{
+    text-decoration: underline;
+    color: black;
+}
+
+span a:hover{
+    color: MediumAquamarine;
+    cursor: pointer;
+}
+
+content{
+  display: flex;
+  width: 100%;
+  margin-top: 120px;
+  margin-left: 25px;
+
+}
+
+.col{
+  border: 1px black solid;
+  display: flex;
+}
+
+.col .large{
+  width: 630px;
+  margin-right: 25px;
+}
+.large{
+  display:flex;
+  flex-direction: column;
+}
+
+.col .medium{
+  width: 315px;
+  margin-right: 25px;
+}
+.medium{
+  display:flex;
+  flex-direction: column;
+}
+
+.col .small{
+  width: 240px;
+  margin-right: 25px;
+
+}
+.small{
+  display: flex;
+  flex-direction: column;
+}
+
+.stories{
+  display: flex;
+  margin-top: 15px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.article1 .title{
+  background-image: url(../img/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  height: 250px;
+}
+
+.article2{
+  width: 50%;
+  margin-right: 15px;
+}
+
+.article2 .title{
+  background-image: url(../img/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.article2 .extract{
+  display: flex;
+  flex-direction: column;
+}
+
+.article3{
+  width: 50%;
+
+}
+
+.article3 .title{
+  background-image: url(../img/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.article3 .extract{
+  display: flex;
+  flex-direction: column;
+}
+
+.article4 .title{
+}
+
+.article4 .extract{
+}
+
+.article5 .title{
+  background-image: url(../img/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  height: 300px;
+  text-align: center;
+}
+
+.article5 .extract{
+}
+
+.article6 .extract h2{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.article6 .extract span{
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.article6 img{
+  width: 95%;
+  height: 95%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#title-company{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.subheadline{
+  display: inline-block;
+  padding-left: 25px;
+  flex-direction: row;
+}
+
+.bottom #title-company .bottom nav{
+}
